@@ -1,0 +1,31 @@
+
+# Client HTTP API port
+http_port: 
+
+# Address of Thread DB instance
+threaddb_addr: 
+
+# The Private Key of this peer (leave blank)
+private_key: 
+
+# Client HTTPS API port
+https_port:
+# path to https Certificate file
+tls_cert_path:
+# path to https Private Key file
+tls_pk_path:
+
+# boostrap server node multiaddress
+bootstrap_multiaddr: 
+
+# this peer's bootstrapping gRPC server port
+bootstrap_comms_port:
+
+# this peer's masternode gRPC server port 
+master_node_comms_port:
+
+
+# directory to dump log files
+log_directory:
+
+dev_mode: false

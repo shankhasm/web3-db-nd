@@ -1,0 +1,13 @@
+https_port: 0
+http_port: 3001
+threaddb_addr: 127.0.0.1:6006
+tls_cert_path: ""
+tls_pk_path: ""
+private_key: CAESQLb00B6xV9qw7tn7of1otzqEI7kRSF0MeP2kC2C5QCfGaxC1gg6K4jFw9KakfPdU3XDUHvuq92WQDin667LSDgM=
+bootstrap_multiaddr: ""
+bootstrap_comms_port: 5001
+master_node_comms_port: 8023
+dev_mode: false
+network_metadata_thread_id: ""
+log_directory: ./logs/
+local_ip_addr: 127.0.0.1

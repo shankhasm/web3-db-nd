@@ -1,0 +1,30 @@
+syntax = "proto3";
+package web3db.pb;
+
+option go_package = "./";
+message JoinNetworkRequest {
+    bytes peerId = 1;
+}
+
+message JoinNetworkReply {
+    InternalMetadataThreadInfo info = 1;
+}
+
+message InternalMetadataThreadInfo {
+    repeated bytes addrs = 1;
+    bytes key = 2;
+    string name = 3;
+}
+
+message AssignMasterNodeRequest {
+    
+}
+
+service BootstrappingComms {
+    rpc JoinNetwork(JoinNetworkRequest) returns (JoinNetworkReply) {}
+}
+
+service MasterNodeComms {
+    rpc AssignMasterNode(AssignMasterNodeRequest)
+}
+
