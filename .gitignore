@@ -1,0 +1,5 @@
+package-lock.json
+web3db/config.yaml
+.vscode/
+web3db/logs
+web3db/test/logs
